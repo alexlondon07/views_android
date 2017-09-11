@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Clase 1 Diplomado Android</string>
+    <string name="button_one">Botón 1</string>
+    <string name="button_two">Animales</string>
+    <string name="hint_name">Ingrese su nombre</string>
+    <string name="textview_title">Ingrese su datos</string>
+    <string name="text_send">Enviar Datos</string>
+    <string name="button_profile">Perfil</string>
+    <string name="ico_like">10 Likes</string>
+    <string name="ico_followers">80 Followers</string>
+    <string name="ico_following">7 Following</string>
+    <string name="nickname">alexlondon07</string>
+    <string name="activity_profile_btn_logout">Cerrar Sessión</string>
+
+
+    <string name="textview_notificarme">Notificarme</string>
+    <string name="textview_sync">Sincronizar cuenta</string>
+
+    <string-array name="animals_array">
+        <item>Leon</item>
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Tiburón</item>
+    </string-array>
+
+    <string-array name="syn_array">
+        <item>Google</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+    </string-array>
+
+
+</resources>
