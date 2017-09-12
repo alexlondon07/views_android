@@ -36,37 +36,44 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
-
-
-
-
+            android:layout_marginTop="15dp"
+            android:weightSum="1"
+            >
             <TextView
                 android:id="@+id/activity_profile_textview_like"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:drawableTop="@drawable/ic_thumb_up_black_24dp"
                 android:text="@string/ico_like"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="0.33"
+                />
 
             <TextView
                 android:id="@+id/activity_profile_textview_followers"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:drawableTop="@drawable/ic_group_black_24dp"
                 android:text="@string/ico_followers"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="0.33"
+
+                />
 
             <TextView
                 android:id="@+id/activity_profile_textview_following"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:drawableTop="@drawable/ic_perm_identity_black_24dp"
                 android:text="@string/ico_following"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="0.33"
+
+
+                />
 
         </LinearLayout>
 
