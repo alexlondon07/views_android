@@ -6,9 +6,9 @@
     <string name="textview_title">Ingrese su datos</string>
     <string name="text_send">Enviar Datos</string>
     <string name="button_profile">Perfil</string>
-    <string name="ico_like">10 Likes</string>
+    <string name="ico_like">100 Likes</string>
     <string name="ico_followers">80 Followers</string>
-    <string name="ico_following">7 Following</string>
+    <string name="ico_following">77 Following</string>
     <string name="nickname">alexlondon07</string>
     <string name="activity_profile_btn_logout">Cerrar Sessión</string>
 
